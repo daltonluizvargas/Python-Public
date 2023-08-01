@@ -2,14 +2,6 @@
 
 <p>Este repositório contém projetos de exemplo que utilizam a biblioteca OpenCV e a detecção de marcadores ArUco para rastrear e identificar marcadores em imagens e vídeos em tempo real. A detecção de marcadores ArUco é uma técnica amplamente utilizada em realidade aumentada, robótica e visão computacional.</p>
 
-<h2>Exemplo de Resultado</h2>
-
-<p align="center">
-  <a href="https://drive.google.com/file/d/1yscyZcbswlWmAWdUfCvwCLNEW4gKZJGx/view">
-    <img src="https://drive.google.com/uc?export=view&id=1yscyZcbswlWmAWdUfCvwCLNEW4gKZJGx" alt="Exemplo de Resultado">
-  </a>
-</p>
-
 
 <h2>Dependências</h2>
 

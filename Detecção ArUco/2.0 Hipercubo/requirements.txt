@@ -1,4 +1,0 @@
-numpy==1.21.6
-opencv-contrib-python==4.0.0.21
-opencv-python==3.4.4.19
-pyserial

@@ -8,9 +8,9 @@
 <p>Antes de executar os projetos de exemplo, certifique-se de ter as seguintes dependências instaladas em seu ambiente Python:</p>
 
 <ul>
-  <li>Python (versão X.X.X)</li>
-  <li>OpenCV (versão X.X.X)</li>
-  <li>NumPy (versão X.X.X)</li>
+  <li>Python (versão 3.7.5)</li>
+  <li>OpenCV (versão 3.4.4.19)</li>
+  <li>NumPy (versão 1.21.6)</li>
 </ul>
 
 <p>Você pode instalar as dependências através do gerenciador de pacotes pip:</p>

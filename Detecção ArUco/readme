@@ -1,0 +1,53 @@
+Detecção ArUco com Python e OpenCV
+Este repositório contém projetos de exemplo que utilizam a biblioteca OpenCV e a detecção de marcadores ArUco para rastrear e identificar marcadores em imagens e vídeos em tempo real. A detecção de marcadores ArUco é uma técnica amplamente utilizada em realidade aumentada, robótica e visão computacional.
+
+Exemplo de Resultado
+Exemplo de Resultado
+
+Dependências
+Antes de executar os projetos de exemplo, certifique-se de ter as seguintes dependências instaladas em seu ambiente Python:
+
+Python (versão 3.7.5)
+OpenCV (versão X.X.X)
+NumPy (versão X.X.X)
+Você pode instalar as dependências através do gerenciador de pacotes pip:
+
+bash
+Copy code
+pip install opencv-python numpy
+Projetos
+1. Detecção de Marcadores ArUco em Imagem
+Neste projeto, você aprenderá a detectar marcadores ArUco em uma imagem estática. O código lerá uma imagem fornecida e marcará os marcadores detectados com caixas delimitadoras retangulares.
+
+2. Detecção de Marcadores ArUco em Vídeo
+Neste projeto, você aprenderá a detectar marcadores ArUco em um vídeo em tempo real. O código lerá um vídeo fornecido (ou utilizará a câmera do computador) e rastreará os marcadores ArUco à medida que aparecem no vídeo, exibindo as caixas delimitadoras em torno deles.
+
+3. Rastreamento de Objetos com ArUco e OpenCV
+Neste projeto, você aprenderá a rastrear objetos usando marcadores ArUco em um vídeo. O código permitirá que você defina um objeto de interesse associado a um marcador específico. À medida que o marcador é detectado no vídeo, o objeto será rastreado e sua trajetória será exibida no vídeo.
+
+Como Usar
+Clone este repositório em seu ambiente local:
+bash
+Copy code
+git clone https://github.com/seu-usuario/detecao-aruco-com-opencv.git
+Navegue até o diretório do projeto desejado:
+bash
+Copy code
+cd detecao-aruco-com-opencv/projeto-desejado
+Execute o script Python correspondente ao projeto:
+bash
+Copy code
+python nome_do_projeto.py
+O projeto será executado e os resultados serão exibidos na janela de visualização.
+Contribuição
+Se você quiser contribuir para este repositório, sinta-se à vontade para fazer um fork, criar um branch com sua alteração e enviar um pull request. Será um prazer receber suas contribuições.
+
+Licença
+Este projeto está licenciado sob a licença MIT. Sinta-se livre para usá-lo e modificá-lo de acordo com suas necessidades.
+
+Aviso
+Os vídeos e imagens utilizados nos projetos de exemplo são apenas para fins ilustrativos e estão disponíveis para uso público. Se você desejar utilizar esses vídeos e imagens para fins comerciais ou de distribuição, verifique as licenças e os direitos de uso aplicáveis.
+
+Para dúvidas ou suporte, sinta-se à vontade para abrir uma issue neste repositório.
+
+Divirta-se explorando a detecção de marcadores ArUco com Python e OpenCV!

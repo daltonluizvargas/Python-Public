@@ -1,0 +1,28 @@
+@relation mercado
+ 
+@attribute biscoito {0, 1}
+@attribute cerveja {0, 1}
+@attribute cha {0, 1}
+@attribute salaminho {0, 1}
+@attribute couve {0, 1}
+@attribute linguica {0, 1}
+@attribute pao {0, 1}
+@attribute queijo {0, 1}
+@attribute cafe {0, 1}
+@attribute brocolis {0, 1}
+@attribute refrigerante {0, 1}
+ 
+@data
+1,1,1,1,0,0,0,0,0,0,0
+0,1,0,0,1,1,1,0,0,0,1
+1,1,1,0,0,1,0,1,0,1,1
+1,1,1,1,0,1,1,1,1,1,1
+1,1,0,0,0,1,0,1,0,1,0
+1,1,1,0,0,1,0,1,0,1,1
+0,1,0,0,0,1,0,1,0,1,0
+1,0,1,1,0,1,0,1,1,0,1
+0,1,1,0,0,1,0,1,0,0,0
+1,0,1,0,1,1,1,1,1,1,1
+0,1,1,0,0,1,0,1,1,0,1
+1,0,1,1,1,1,0,1,0,1,1
+1,0,1,0,1,1,0,1,0,0,1

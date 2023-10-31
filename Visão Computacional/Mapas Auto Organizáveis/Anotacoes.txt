@@ -1,0 +1,12 @@
+Mapas auto organizáveis
+
+Algoritmo de agrupamento que utiliza redes nerais
+Usado para redução de dimensionalidade: quando uma base de dados tem muitos atributos, pode ser usado para defnir os atributos mais importantes, por exemplo
+
+tem 2 camadas:
+    entrada: seriam os pesos
+    saída: é o mapa
+precisa definir o tamanho do mapa, que é a quantidade neuronios
+ter os atributos de entrada, que equivalem a base de dados
+fazer o cálculo para achar o BMU (best matching unit) para cada um dos registros
+

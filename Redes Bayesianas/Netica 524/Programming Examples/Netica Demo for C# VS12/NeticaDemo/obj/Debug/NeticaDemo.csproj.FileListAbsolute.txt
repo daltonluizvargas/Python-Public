@@ -1,0 +1,18 @@
+C:\Netica Dev\COMTest\Fix Problem\Netica Demo for C# using 12\NeticaDemo\bin\Debug\NeticaDemo.exe.config
+C:\Netica Dev\COMTest\Fix Problem\Netica Demo for C# using 12\NeticaDemo\bin\Debug\NeticaDemo.exe
+C:\Netica Dev\COMTest\Fix Problem\Netica Demo for C# using 12\NeticaDemo\bin\Debug\NeticaDemo.pdb
+C:\Netica Dev\COMTest\Fix Problem\Netica Demo for C# using 12\NeticaDemo\bin\Debug\Interop.Netica.dll
+C:\Netica Dev\COMTest\Fix Problem\Netica Demo for C# using 12\NeticaDemo\obj\Debug\Interop.Netica.dll
+C:\Netica Dev\COMTest\Fix Problem\Netica Demo for C# using 12\NeticaDemo\obj\Debug\NeticaDemo.csproj.ResolveComReference.cache
+C:\Netica Dev\COMTest\Fix Problem\Netica Demo for C# using 12\NeticaDemo\obj\Debug\NeticaDemo.exe
+C:\Netica Dev\COMTest\Fix Problem\Netica Demo for C# using 12\NeticaDemo\obj\Debug\NeticaDemo.pdb
+C:\Netica Dev\COMTest\Fix Problem\Netica Demo for C# using 12\NeticaDemo\obj\Debug\NeticaDemo.csprojResolveAssemblyReference.cache
+C:\Netica Dev\COMTest\Netica Demo for C#\NeticaDemo\bin\Debug\NeticaDemo.exe.config
+C:\Netica Dev\COMTest\Netica Demo for C#\NeticaDemo\obj\Debug\Interop.Netica.dll
+C:\Netica Dev\COMTest\Netica Demo for C#\NeticaDemo\obj\Debug\NeticaDemo.csproj.ResolveComReference.cache
+C:\Netica Dev\COMTest\Netica Demo for C#\NeticaDemo\obj\Debug\NeticaDemo.exe
+C:\Netica Dev\COMTest\Netica Demo for C#\NeticaDemo\obj\Debug\NeticaDemo.pdb
+C:\Netica Dev\COMTest\Netica Demo for C#\NeticaDemo\bin\Debug\NeticaDemo.exe
+C:\Netica Dev\COMTest\Netica Demo for C#\NeticaDemo\bin\Debug\NeticaDemo.pdb
+C:\Netica Dev\COMTest\Netica Demo for C#\NeticaDemo\bin\Debug\Interop.Netica.dll
+C:\Netica Dev\COMTest\Netica Demo for C#\NeticaDemo\obj\Debug\NeticaDemo.csprojResolveAssemblyReference.cache

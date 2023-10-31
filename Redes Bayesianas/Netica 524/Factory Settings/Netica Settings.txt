@@ -1,0 +1,39 @@
+
+// ------------- NETICA SETTINGS -------------
+// This file is read by Netica at startup to set user preferences.
+// You may edit it to change Netica's behaviour (if present, remove the line's //).
+// It must be named "Netica Settings.txt" and be located in Netica's home directory (i.e. the directory with the executable Netica.exe or Netica32.exe).
+// If you wish to restore it to original, replace this file with the one of the same name in the "Factory Settings" folder (located in Netica's home directory).
+// Lines preceeded with a double slash // are ignored.
+// If you wish some aspect of Netica's behaviour to be controlled by this file, please contact  support@norsys.com
+
+// Show_memory_amounts_in_mebibytes        // to display in kibibytes (1 KiB = 1024 bytes), mebibytes, gibibytes, etc instead of kilobytes (1 KB = 1000 bytes), megabytes, etc.
+
+// Recovery_file_save_interval_in_minutes = 5        // set to -1 to turn off saving recovery files
+
+// Confidence_interval_shown_when_hover_on_node_percent = 90
+// Percent_confidence_interval_shown_when_hover_on_node = 90
+// Confidence_interval_percent_shown_when_hover_on_node = 90
+// Confidence_interval_percent_shown_when_hover_on_node_2 = 98
+
+// Url_to_send_Netica_internal_error_reports = "errors.netica.com:7778"
+// Url_to_send_Netica_internal_error_reports = "core.hed.cc:7778"
+
+HedHost1_Name = "WEB1"
+HedHost1_Url  = "www.hed.cc"
+HedHost1_Ftp  = "ftp.hed.cc"
+HedHost1_Info = "www.hed.cc"
+// HedHost1_Info = "core.hed.cc:7777"
+
+HedHost2_Name = "DEV"
+HedHost2_Url  = "dev.hed.cc"
+HedHost2_Ftp  = "ftpdev.hed.cc"
+HedHost2_Info = "dev.hed.cc"
+// HedHost2_Info = "core.hed.cc:7777"
+
+HedHost9_Name = "LocalHost"
+HedHost9_Url  = "localhost:8000"
+HedHost9_Ftp  = "localhost:8000"
+HedHost9_Info = "localhost:8000"
+HedHost9_Code = ""
+

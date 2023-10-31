@@ -1,0 +1,21 @@
+@relation produtos
+
+@attribute leite {SIM,NAO}
+@attribute cafe {SIM,NAO}
+@attribute cerveja {SIM,NAO}
+@attribute pao {SIM,NAO}
+@attribute manteiga {SIM,NAO}
+@attribute arroz {SIM,NAO}
+@attribute feijao {SIM,NAO}
+
+@data
+NAO,SIM,NAO,SIM,SIM,NAO,NAO
+SIM,NAO,SIM,SIM,SIM,NAO,NAO
+NAO,SIM,NAO,SIM,SIM,NAO,NAO
+SIM,SIM,NAO,SIM,SIM,NAO,NAO
+NAO,NAO,SIM,NAO,NAO,NAO,NAO
+NAO,NAO,NAO,NAO,SIM,NAO,NAO
+NAO,NAO,NAO,SIM,NAO,NAO,NAO
+NAO,NAO,NAO,NAO,NAO,NAO,SIM
+NAO,NAO,NAO,NAO,NAO,SIM,SIM
+NAO,NAO,NAO,NAO,NAO,SIM,NAO

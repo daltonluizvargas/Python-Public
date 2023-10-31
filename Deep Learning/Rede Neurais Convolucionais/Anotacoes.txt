@@ -1,0 +1,8 @@
+rede neural densa - cada neuronio é conectado com todos os outros
+
+
+pelo anacondas prompt  - pip install keras
+
+CIFAR-100
+
+site do keras - datasets

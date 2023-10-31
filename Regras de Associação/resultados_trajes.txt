@@ -1,0 +1,49 @@
+=== Run information ===
+
+Scheme:       weka.associations.Apriori -N 10 -T 0 -C 0.2 -D 0.05 -U 1.0 -M 0.1 -S -1.0 -c -1
+Relation:     trajes
+Instances:    1262
+Attributes:   12
+              vestido
+              saia_corselet
+              casaco_pele
+              noivas
+              acessorios
+              tailler
+              terno
+              camisa
+              conjunto
+              daminha
+              saia
+              casaca
+=== Associator model (full training set) ===
+
+
+Apriori
+=======
+
+Minimum support: 0.1 (126 instances)
+Minimum metric <confidence>: 0.2
+Number of cycles performed: 18
+
+Generated sets of large itemsets:
+
+Size of set of large itemsets L(1): 4
+
+Size of set of large itemsets L(2): 2
+
+Best rules found:
+
+ 1. terno=Sim 453 ==> acessorios=Sim 275    <conf:(0.61)> lift:(1.39) lev:(0.06) [77] conv:(1.43)
+ 2. acessorios=Sim 551 ==> terno=Sim 275    <conf:(0.5)> lift:(1.39) lev:(0.06) [77] conv:(1.28)
+ 3. acessorios=Sim 551 ==> vestido=Sim 156    <conf:(0.28)> lift:(0.6) lev:(-0.08) [-102] conv:(0.74)
+ 4. vestido=Sim 593 ==> acessorios=Sim 156    <conf:(0.26)> lift:(0.6) lev:(-0.08) [-102] conv:(0.76)
+
+ upperbound: suporte quantidade de vezes que o registro aparece em N%
+
+ minMetric - confiança
+
+ lowerbound - quantidade de vezes que o registro aparece em N%
+
+ 
+

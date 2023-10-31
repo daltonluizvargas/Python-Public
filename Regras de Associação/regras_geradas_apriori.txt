@@ -1,0 +1,42 @@
+
+# Regras Apriori - Weka
+
+  minMetric: 0.9
+  lowerBoundMinSupport: 0.3
+  upperBoundMinSupport: 0.95
+
+ 1. gpu_company=Intel 722 ==> cpu=Intel 722    <conf:(1)> lift:(1.05) lev:(0.03) [34] conv:(34.91)
+ 2. gpu_company=Intel opsys=Windows_10 577 ==> cpu=Intel 577    <conf:(1)> lift:(1.05) lev:(0.02) [27] conv:(27.9)
+ 3. cpu_serie=Core_i7 527 ==> cpu=Intel 527    <conf:(1)> lift:(1.05) lev:(0.02) [25] conv:(25.48)
+ 4. screen_type=Full_HD 507 ==> screem_resolution=1920X1080 507    <conf:(1)> lift:(1.55) lev:(0.14) [179] conv:(179.77)
+ 5. cpu=Intel screen_type=Full_HD 481 ==> screem_resolution=1920X1080 481    <conf:(1)> lift:(1.55) lev:(0.13) [170] conv:(170.55)
+ 6. cpu_serie=Core_i7 opsys=Windows_10 467 ==> cpu=Intel 467    <conf:(1)> lift:(1.05) lev:(0.02) [22] conv:(22.58)
+ 7. ram=8GB screem_resolution=1920X1080 485 ==> cpu=Intel 481    <conf:(0.99)> lift:(1.04) lev:(0.01) [19] conv:(4.69)
+ 8. ram=8GB 619 ==> cpu=Intel 607    <conf:(0.98)> lift:(1.03) lev:(0.01) [17] conv:(2.3)
+ 9. cpu_edition=Company screem_resolution=1920X1080 526 ==> cpu=Intel 514    <conf:(0.98)> lift:(1.03) lev:(0.01) [13] conv:(1.96)
+10. ram=8GB opsys=Windows_10 511 ==> cpu=Intel 499    <conf:(0.98)> lift:(1.03) lev:(0.01) [12] conv:(1.9)
+11. cpu_edition=Company 785 ==> cpu=Intel 766    <conf:(0.98)> lift:(1.03) lev:(0.01) [18] conv:(1.9)
+12. cpu_edition=Company opsys=Windows_10 649 ==> cpu=Intel 632    <conf:(0.97)> lift:(1.02) lev:(0.01) [14] conv:(1.74)
+13. hdd_ssd=256GB 500 ==> cpu=Intel 484    <conf:(0.97)> lift:(1.02) lev:(0.01) [8] conv:(1.42)
+14. screem_resolution=1920X1080 841 ==> cpu=Intel 809    <conf:(0.96)> lift:(1.01) lev:(0.01) [8] conv:(1.23)
+15. screem_resolution=1920X1080 opsys=Windows_10 737 ==> cpu=Intel 705    <conf:(0.96)> lift:(1.01) lev:(0) [3] conv:(1.08)
+16. screen_type=Full_HD 507 ==> cpu=Intel 481    <conf:(0.95)> lift:(1) lev:(-0) [-1] conv:(0.91)
+17. screen_type=Full_HD screem_resolution=1920X1080 507 ==> cpu=Intel 481    <conf:(0.95)> lift:(1) lev:(-0) [-1] conv:(0.91)
+18. screen_type=Full_HD 507 ==> cpu=Intel screem_resolution=1920X1080 481    <conf:(0.95)> lift:(1.53) lev:(0.13) [166] conv:(7.12)
+19. opsys=Windows_10 1072 ==> cpu=Intel 1013    <conf:(0.94)> lift:(0.99) lev:(-0.01) [-7] conv:(0.86)
+20. inches='(14.25-16.325]' 673 ==> cpu=Intel 624    <conf:(0.93)> lift:(0.97) lev:(-0.01) [-16] conv:(0.65)
+
+
+Regras mais frequentes
+
+ 1. gpu_company=Intel 722 ==> cpu=Intel 722    <conf:(1)> lift:(1.05) lev:(0.03) [34] conv:(34.91)
+ 2. cpu_edition=Company 785 ==> cpu=Intel 766    <conf:(0.98)> lift:(1.03) lev:(0.01) [18] conv:(1.9)
+ 3. screem_resolution=1920X1080 841 ==> cpu=Intel 809    <conf:(0.96)> lift:(1.01) lev:(0.01) [8] conv:(1.23)
+ 4. screem_resolution=1920X1080 opsys=Windows_10 737 ==> cpu=Intel 705    <conf:(0.96)> lift:(1.01) lev:(0) [3] conv:(1.08)
+ 5. opsys=Windows_10 1072 ==> cpu=Intel 1013    <conf:(0.94)> lift:(0.99) lev:(-0.01) [-7] conv:(0.86)
+ 6. category=input 727 ==> cpu=Intel 672    <conf:(0.92)> lift:(0.97) lev:(-0.02) [-19] conv:(0.63)
+ 7. screem_resolution=1920X1080 841 ==> opsys=Windows_10 737    <conf:(0.88)> lift:(1.07) lev:(0.03) [45] conv:(1.42)
+ 8. cpu=Intel screem_resolution=1920X1080 809 ==> opsys=Windows_10 705    <conf:(0.87)> lift:(1.06) lev:(0.03) [39] conv:(1.37)
+
+( lowerBoundMinSupport: 0.5 )
+( minMetric: 0.85 )

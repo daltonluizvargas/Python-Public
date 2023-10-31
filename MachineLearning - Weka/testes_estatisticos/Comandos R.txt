@@ -1,0 +1,13 @@
+http://kourentzes.com/forecasting/2014/04/19/tstools-for-r/
+
+// Instala��o TStools
+
+if (!require("devtools"))
+    install.packages("devtools")
+devtools::install_github("trnnick/TStools")
+
+require(TStools)
+
+data <- read.csv("C:\\testes.csv")
+mat <- as.matrix(data)
+TStools::nemenyi(mat,conf.int=0.95, plottype="vline")

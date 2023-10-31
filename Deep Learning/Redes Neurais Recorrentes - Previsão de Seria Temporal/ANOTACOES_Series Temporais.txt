@@ -1,0 +1,2 @@
+para fazer uma previsão, precisa definir um intervalo de tempo
+precisar montar a base de dados com os atributos previsores

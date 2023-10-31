@@ -31,6 +31,14 @@ pip install opencv-python numpy
     <h3>Rastreamento de Objetos com ArUco e OpenCV</h3>
     <p>Neste projeto, você aprenderá a rastrear objetos usando marcadores ArUco em um vídeo. O código permitirá que você defina um objeto de interesse associado a um marcador específico. À medida que o marcador é detectado no vídeo, o objeto será rastreado e sua trajetória será exibida no vídeo.</p>
   </li>
+  <li>
+    <h3>Solução de Realidade Aumentada: Simulação de Bomba Atômica no Minecraft</h3>
+    <p>Esta solução utiliza a combinação de uma bomba do Minecraft e um aplicativo de realidade aumentada. A técnica emprega tags ArUco para projetar vídeos e simular a criação de uma bomba atômica no contexto do jogo Minecraft.</p>
+  </li>
+  <li>
+    <h3>Solução de Filtro de Face com Media Pipe e Realidade Aumentada</h3>
+    <p>Este projeto utiliza Media Pipe para detecção facial e a substituição da face por uma imagem desejada. A técnica cria um filtro de face usando Realidade Aumentada, onde o rosto é detectado e substituído pela imagem designada, proporcionando uma experiência de alteração facial em tempo real.</p>
+  </li>
 </ol>
 <h2>Como Usar</h2>
 <ol>

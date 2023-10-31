@@ -1,0 +1,14 @@
+ - TUTORIAL
+https://developers.google.com/mediapipe/solutions/vision/hand_landmarker
+
+ - No terminal criar o ambiente virtual
+python -m venv venv 
+
+ - Abrir o powershell e dar permissão
+ Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+
+ - Ativar o ambiente virtual
+.\venv/Scripts/Activate.ps1
+
+ - Instalar as bibliotecas
+pip install mediapipe

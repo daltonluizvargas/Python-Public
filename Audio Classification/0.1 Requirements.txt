@@ -1,0 +1,6 @@
+Download dataset UrbanSoud8k: goo.gl/8hY5ER
+https://zenodo.org/record/1203745/files/UrbanSound8K.tar.gz
+
+
+Numpy
+Librosa
